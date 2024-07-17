@@ -2,6 +2,8 @@ package july_17th2024;
 
 class World {
 
+	// parent of superclass
+
 	void className() {
 		System.out.println("SuperClass: World");
 	}
@@ -14,6 +16,8 @@ class World {
 
 class WCountry extends World {
 
+	// superclass
+
 	void className() {
 		System.out.println("SuperClass: Country");
 	}
@@ -25,27 +29,15 @@ class WCountry extends World {
 
 }
 
-class State extends WCountry {
-	void className() {
-		System.out.println("Subclass : State");
-	}
-
-	void spopulation() {
-		System.out.println("3.83 crores");
-
-	}
-
-}
-
-public class MultiLevelInheritance_Assignment26D13 {
+public class MultiLevelInheritance_Assignment26D13 extends WCountry {
 
 	public static void main(String[] args) {
 
-		State s = new State();
-		s.wpopulation();
-		s.cpopulation();
-		s.spopulation();
+		// Subclass
 
+		WCountry w = new WCountry();
+		w.wpopulation();
+		w.cpopulation();
 	}
 
 }
