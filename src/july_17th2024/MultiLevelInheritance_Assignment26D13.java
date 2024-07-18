@@ -35,7 +35,7 @@ public class MultiLevelInheritance_Assignment26D13 extends WCountry {
 
 		// Subclass
 
-		WCountry w = new WCountry();
+		MultiLevelInheritance_Assignment26D13 w = new MultiLevelInheritance_Assignment26D13();
 		w.wpopulation();
 		w.cpopulation();
 	}
