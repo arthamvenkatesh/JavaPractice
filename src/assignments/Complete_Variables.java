@@ -2,7 +2,7 @@ package assignments;
 
 public class Complete_Variables {
 
-	static int a = 1000; // global variable
+	 static int a = 1000; // global variable
 
 	final static int fix_value = 100; // final variable
 
