@@ -13,14 +13,14 @@ class Parent1 {
 
 }
 
-public class Java_PolymorphisumRunTime {
+public class Java_PolymorphisumRunTime_Assignment55 {
 
 	public static void main(String[] args) {
 
 		// object behaviour is different in different stages of lifecycle in rumtime
 		// based on object creation know as runtimepoly
 
-		Java_PolymorphisumRunTime p1 = new Java_PolymorphisumRunTime();
+		Java_PolymorphisumRunTime_Assignment55 p1 = new Java_PolymorphisumRunTime_Assignment55();
 		p1.cCount();
 		p1.cDisplay(); // by creating child class object child methods will access
 

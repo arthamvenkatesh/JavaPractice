@@ -1,6 +1,6 @@
 package aug23;
 
-public class StringBuilder_Methods {
+public class StringBuilder_Methods_Assignment53 {
 
 	public static void main(String[] args) {
 

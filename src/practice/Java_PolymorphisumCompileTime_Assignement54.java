@@ -1,11 +1,11 @@
 // Comiple time polymorphisum with method overload concept #
 package practice;
 
-public class Java_PolymorphisumCompileTime {
+public class Java_PolymorphisumCompileTime_Assignement54 {
 
 	public static void main(String[] args) {
 		
-		Java_PolymorphisumCompileTime j = new Java_PolymorphisumCompileTime();
+		Java_PolymorphisumCompileTime_Assignement54 j = new Java_PolymorphisumCompileTime_Assignement54();
 		j.Login(5);
 		j.Login("manish");
 
